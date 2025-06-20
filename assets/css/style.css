@@ -105,11 +105,41 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .ay-sub-container{
+        padding-top: 7em;
+        padding-bottom: 5em;
+    }
     .ay-wrapper{
         position: relative;
         width: 100%;
         height: 100%;
     }
+    .section-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+    .section-title h2{
+        color: var(--color-01);
+        font-size: var(--h2-font-size);
+        font-weight: var(--font-bold);
+        margin-bottom: 5px;
+    }
+    .section-title p{
+        color: var(--color-04);
+        font-size: var(--base-font-size);
+        font-weight: var(--font-regular);
+    }
+    .section-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 75px;
+    }
+
+
     /*======== Botões=======*/
     .ay-main-btn{
         width: fit-content;
@@ -492,8 +522,91 @@
         font-size: 2rem;
     } 
 
-
     /*======== Sobre=======*/
+    .about-img{
+        position: relative;
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        pointer-events: none;
+    }
+    .about-img img{
+        width: 100%;
+        border-radius: 15%;
+        box-shadow: 0 0 20px hsl(var(--hue) 54% 74% / .15);
+    }
+
+    .about-details{
+        width: 65%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about-info .iam{
+        color: var(--color-02);
+        font-size: var(--h4-font-size);
+        font-weight: var(--font-semi-bold);
+        margin-bottom: 30px;
+    }
+    .about-description{
+        font-size: var(--base-font-size);
+        font-weight: var(--font-regular);
+        line-height: 25px;
+    }
+    .title-card{
+        color: var(--color-02);
+        font-size: var(--h4-font-size);
+        font-weight: var(--font-semi-bold);
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .pro-list{
+        position: relative;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        column-gap: 10px;
+        row-gap: 12px;
+        margin: 0px;
+        margin-bottom: 25px;
+
+    }
+    .pro-card{
+        background-color: var(--color-05);
+        color: var(--color-03);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        column-gap: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .pro-card span{
+        color: var(--color-01);
+        font-size: var(--font-regular);
+        font-weight: var(--font-bold);
+    }
+    .about-buttons{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20px;
+        row-gap: 25px;
+    }
 
     /*======== Meu Cv=======*/
+
+    /*======== Services =======*/
+
+    /*======== Portfolio=======*/
+
+    /*======== Testimonials=======*/
+    /*======== Contact=======*/
+    
+    /*======== Footer=======*/
 }
